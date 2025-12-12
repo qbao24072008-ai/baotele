@@ -11,8 +11,8 @@ from telegram.ext import (
 from pydub import AudioSegment
 
 # Load config from env
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+TELEGRAM_TOKEN = os.getenv("8220970915:AAHe8Mh-e1su7SfKePBmNwLt9CJ6VLrN76w")
+OPENAI_API_KEY = os.getenv("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")
 
 if not TELEGRAM_TOKEN or not OPENAI_API_KEY:
     raise RuntimeError("Please set TELEGRAM_TOKEN and OPENAI_API_KEY in environment variables. See .env.example")
